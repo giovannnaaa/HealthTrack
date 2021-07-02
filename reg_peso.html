@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="peso, lista, adicionar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- LINK CSS STYLE -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- TITULO PAGINA NAVEGADOR -->
+    <title>HEALTH TRACK</title>
+</head>
+<body>
+    <main id="pagina">  
+        <div class="container-fluid">
+        
+            <header id="title">
+                
+                <div id="cabecalho" class="row">
+                    <div class="col-1"><a href="index.html"><button id="menu"><i class="bi bi-list"></i></button></a></div>
+                    <div class="col-11">HEALTH TRACK</div>
+                </div>
+
+                <p class="titulo_tabela">LISTA PESOS</p>
+            </header>
+
+            <section id="tabela">
+                <table id="tabela_peso" class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="data">DATA</th>
+                            <th scope="col" class="peso">PESO (KG)</th>
+                            <th scope="col" class="acoes">AÇŌES</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <TBody>
+                        <tr>
+                            <td>06/04/2021</td>
+                            <td>72 KG</td>
+                            <td><button id="edit"><i class="bi bi-pencil"></i></button><button id="trash"> <i class="bi bi-trash"></i> </button></i></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>06/05/2021</td>
+                            <td>67 KG</td>
+                            <td><button id="edit"><i class="bi bi-pencil"></i></button><button id="trash"> <i class="bi bi-trash"></i> </button></i></td>
+                            <td></td>
+                        </tr>
+                    </TBody>
+                </table>
+            </section>
+
+            <footer id="rodape">        
+                <div class="row">
+                    <div class="col"><a href="add_peso.html"><button id="adicionar"><i class="bi bi-plus-circle"></i></button></a></div>
+                </div>
+                <p> ADICIONAR PESO </p>
+            </footer> 
+        </div>
+    </main>  
+</body>
+</html>
